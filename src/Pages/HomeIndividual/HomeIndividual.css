@@ -1,0 +1,58 @@
+.Pagina{
+    height: 100%;
+}
+.Foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.Foto img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.Home {
+    display: flex;
+    height: 100%;
+}
+
+.Links{
+    background-color: #B0CCE1;
+    height: 100%;
+    padding-left: 60px;
+}
+
+.About{
+    padding-left: 72px;
+    padding-right: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.Titulo{
+    padding-left: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+
+.left-home{
+    width: 20%;
+    background-color: #B0CCE1;
+    position: relative;
+    height: 100%;
+}
+
+.Right-home{
+    width: 80%;
+    padding-top: 50px;
+    height: 100%;
+}

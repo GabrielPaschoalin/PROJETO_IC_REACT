@@ -1,0 +1,28 @@
+.Titulo{
+    padding-left: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.About{
+    padding-left: 72px;
+    padding-right: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.lista{
+    padding-bottom: 10px;
+}
+
+.allPage{
+    
+    padding: 50px 100px;
+}

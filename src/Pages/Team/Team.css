@@ -1,0 +1,43 @@
+.Titulo_2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.head {
+  justify-content: center;
+  display: flex;
+}
+
+.allPage {
+  padding: 50px 100px;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+}
+
+.legenda_Foto {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.container_aluno {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+  column-count: 3;
+}
+
+.image-size {
+  height: 350px;
+  width: 300px;
+}
