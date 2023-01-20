@@ -25,7 +25,7 @@ function Team() {
             <div className="legenda_Foto">
               <img className="image-size" src={Gabriel} />
             </div>
-            <div className="legenda_Foto">Gabriel Dias</div>
+            <div className="legenda_Foto">Gabriel Paschoalin</div>
           </div>
           <div>
             <div className="legenda_Foto">
