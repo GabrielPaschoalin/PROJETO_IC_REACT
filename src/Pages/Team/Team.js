@@ -1,7 +1,7 @@
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import "./Team.css";
-import Janier from "../Home/usuario.png";
+import Janier from "../HomeIndividual/usuario.png";
 import Gabriel from "../../Components/Time_Fotos/Gabriel.png";
 
 function Team() {
