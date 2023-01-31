@@ -1,58 +1,64 @@
-.Pagina{
-    height: 100%;
-}
-.Foto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.Foto img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-.Home {
-    display: flex;
-    height: 100%;
+.Pagina {
+  height: 100%;
 }
 
-.Links{
-    background-color: #B0CCE1;
-    height: 100%;
-    padding-left: 60px;
+.Page-inferior {
+  padding: 0 100px;
 }
 
-.About{
-    padding-left: 72px;
-    padding-right: 72px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: justify;
+.ImagemFundo {
+  background-image: url("./ImagemFundo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  max-height: 80rm;
+  vertical-align: middle;
 }
 
-.Titulo{
-    padding-left: 72px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 30px;
-
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  min-height: 500px;
 }
 
-.left-home{
-    width: 20%;
-    background-color: #B0CCE1;
-    position: relative;
-    height: 100%;
+.Subtitle {
+  font-size: 28px;
+  color: #e6e0e0;
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
-.Right-home{
-    width: 80%;
-    padding-top: 50px;
-    height: 100%;
+.TituloHome {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 30px;
+  color: white;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.About-us {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.About-title {
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #212529;
+  align-items: center;
+}
+
+.About-text {
+  font-family: "Inter";
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #6c757d;
 }
