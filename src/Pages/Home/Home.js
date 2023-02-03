@@ -1,17 +1,21 @@
 import "./Home.css";
 import Header from "../../Components/Header/Header.js";
 import Footer from "../../Components/Footer/Footer";
+import GoogleApiWrapper from "./Mapa.js";
+import { Button } from "react-bootstrap";
 
 function Home() {
   return (
     <div className="Pagina">
       <Header />
-      <div className="ImagemFundo">
-        <div className="container">
+
+      <div className="containerHome">
+        <div className="texto">
           <h1 className="TituloHome">SIGLA</h1>
-          <div className="Subtitle">Nome do Grupo</div>
+          <h1 className="Subtitle">Nome do Grupo</h1>
         </div>
       </div>
+
       <div className="Page-inferior">
         <div className="About-us">
           <h2 class="About-title">ABOUT US</h2>
@@ -24,10 +28,20 @@ function Home() {
             Vivamus nec nibh ut velit tristique cursus sed consequat turpis.
             Nunc sollicitudin ligula in felis tincidunt, a aliquet arcu sodales.
           </p>
+          <div className="Team-button">
+            <Button variant="primary" size="lg" href="Team">
+              Discover our team
+            </Button>
+          </div>
+        </div>
+
+        <div className="About-us">
+          <h2 class="About-title">WHERE ARE WE?</h2>
+          <div className="Mapa">
+            <GoogleApiWrapper />
+          </div>
         </div>
       </div>
-
-      <div>Where us?</div>
       <Footer />
     </div>
   );

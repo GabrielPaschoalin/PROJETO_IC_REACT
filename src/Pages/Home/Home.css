@@ -3,25 +3,26 @@
 }
 
 .Page-inferior {
-  padding: 0 100px;
+  padding: 0 100px 0 100px;
 }
 
-.ImagemFundo {
+.containerHome {
   background-image: url("./ImagemFundo.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  max-height: 80rm;
-  vertical-align: middle;
-}
-
-.container {
-  width: 100%;
   display: flex;
   flex-flow: column;
+
+  height: 500px;
+}
+
+.texto {
+  position: relative;
   text-align: center;
-  min-height: 500px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .Subtitle {
@@ -32,8 +33,6 @@
 
 .TituloHome {
   font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
   font-size: 72px;
   line-height: 30px;
   color: white;
@@ -41,7 +40,7 @@
 }
 
 .About-us {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
   display: flex;
   align-items: center;
   flex-flow: column;
@@ -49,16 +48,24 @@
 
 .About-title {
   font-family: "Inter";
-  font-weight: bold;
   font-size: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   color: #212529;
   align-items: center;
 }
 
 .About-text {
   font-family: "Inter";
-  font-size: 15px;
-  margin-bottom: 15px;
+  font-size: 25px;
+  margin-bottom: 0;
   color: #6c757d;
+}
+
+.Mapa {
+  align-items: center;
+  position: absolute;
+
+  padding: 100px 0 100px 0;
+  width: 100%;
+  height: 50%;
 }
