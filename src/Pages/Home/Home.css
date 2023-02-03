@@ -37,6 +37,7 @@
   line-height: 30px;
   color: white;
   filter: drop-shadow(5px 5px 5px #222);
+  margin-bottom: 50px;
 }
 
 .About-us {
@@ -47,11 +48,12 @@
 }
 
 .About-title {
-  font-family: "Inter";
-  font-size: 40px;
-  margin-bottom: 0;
+  text-align: center;
+  font-size: 50px;
   color: #212529;
-  align-items: center;
+  font-family: "Inter";
+  line-height: 30px;
+  margin-bottom: 30px;
 }
 
 .About-text {

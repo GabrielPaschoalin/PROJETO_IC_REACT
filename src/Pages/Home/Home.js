@@ -30,7 +30,13 @@ function Home() {
             Nunc sollicitudin ligula in felis tincidunt, a aliquet arcu sodales.
           </p>
           <div className="Team-button">
-            <Button variant="dark" size="lg">
+            <Button
+              variant="dark"
+              size="lg"
+              onClick={() => {
+                window.open("/team");
+              }}
+            >
               DISCOVER OUR TEAM
             </Button>
           </div>
