@@ -3,6 +3,7 @@ import Header from "../../Components/Header/Header.js";
 import Footer from "../../Components/Footer/Footer";
 import GoogleApiWrapper from "./Mapa.js";
 import { Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
   return (
@@ -29,8 +30,8 @@ function Home() {
             Nunc sollicitudin ligula in felis tincidunt, a aliquet arcu sodales.
           </p>
           <div className="Team-button">
-            <Button variant="primary" size="lg" href="Team">
-              Discover our team
+            <Button variant="dark" size="lg">
+              DISCOVER OUR TEAM
             </Button>
           </div>
         </div>

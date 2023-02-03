@@ -1,28 +1,26 @@
+import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from "./UFMG.png";
 
 function Header() {
   return (
-    <div className="Header">
-      <div>
-        <img src={logo} className="logo" />
-      </div>
-
-      <div className="menu">
-        <ul className="list">
-          <li className="item">
+    <nav class="navbar">
+      <Container>
+        <Link to="/">
+          <img class="logo" src={logo}></img>
+        </Link>
+        <ul class="list">
+          <li class="item">
             <Link to="/">Home</Link>
           </li>
-          <li className="item">
-            <Link to="/Research">Research</Link>
-          </li>
-          <li className="item">
+
+          <li class="item">
             <Link to="/Team">Team</Link>
           </li>
         </ul>
-      </div>
-    </div>
+      </Container>
+    </nav>
   );
 }
 
