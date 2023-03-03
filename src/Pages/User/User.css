@@ -18,9 +18,9 @@
 }
 
 .Links {
-  background-color: #b0cce1;
   height: 100%;
-  padding-left: 60px;
+  padding: 60px 0 0 60px;
+  color: white;
 }
 
 .About {
@@ -45,13 +45,30 @@
 
 .left-home {
   width: 20%;
-  background-color: #b0cce1;
   position: relative;
   height: 100%;
+  background-color: gray;
 }
 
 .Right-home {
   width: 80%;
   padding-top: 50px;
   height: 100%;
+}
+
+.item {
+  margin-right: 1em;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-decoration: none;
+
+  color: white;
+}
+
+.item:hover {
+  color: #c6001a;
+  text-decoration: underline;
 }

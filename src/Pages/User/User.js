@@ -1,12 +1,12 @@
 import usuario from "./usuario.png";
 import "./User.css";
-import Header from "../../Components/Header/Header.js";
+import Header_Usuario from "../../Components/Header_Usuario/Header_Usuario.js";
 import Footer from "../../Components/Footer/Footer";
 
 function Home() {
   return (
     <div className="Pagina">
-      <Header />
+      <Header_Usuario />
       <div className="Home">
         <div className="left-home">
           <div className="Foto">
@@ -16,21 +16,31 @@ function Home() {
             <h3>Group Links</h3>
             <ul>
               <li>
-                <a href="http://macro.ppgee.ufmg.br/">MACRO Group </a>
+                <a class="item" href="http://macro.ppgee.ufmg.br/">
+                  MACRO Group{" "}
+                </a>
               </li>
               <li>
-                <a href="http://150.164.32.17/site-litc/">LITC Laboratory </a>
+                <a class="item" href="http://150.164.32.17/site-litc/">
+                  LITC Laboratory{" "}
+                </a>
               </li>
             </ul>
             <h3>More</h3>
             <ul>
               <li>
-                <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4295052E6">
+                <a
+                  class="item"
+                  href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4295052E6"
+                >
                   Curriculum Lattes
                 </a>
               </li>
               <li>
-                <a href="https://scholar.google.com.br/citations?user=QHrai7UAAAAJ&hl=pt-BR">
+                <a
+                  class="item"
+                  href="https://scholar.google.com.br/citations?user=QHrai7UAAAAJ&hl=pt-BR"
+                >
                   Google Scholar
                 </a>
               </li>
